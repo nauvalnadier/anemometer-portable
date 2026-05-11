@@ -131,8 +131,8 @@ STL files are available in [`hardware/stl/`](hardware/stl/)
 | `housing_1.stl` | Main box (96×84×105 mm) | ~4 hrs |
 | `housing_2.stl` | Top box (96×84×48 mm) | ~2 hrs |
 | `backdoor.stl` | Back door | ~30 min |
-| `atap_penutup.stl` | Top cover | ~30 min |
-| `pipa_penyangga.stl` | Support pipe (H=123 mm) | ~1 hr |
+| `top_cover.stl` | Top cover | ~30 min |
+| `support_pipe.stl` | Support pipe (H=123 mm) | ~1 hr |
 | `disk_encoder.stl` | 16-slot encoder disk (D=60 mm) | ~45 min |
 | `cup_anemometer.stl` | 3× hemisphere cup (D=40 mm) | ~1.5 hrs |
 | `wind_vane.stl` | Wind vane (arm 150 mm, blade 102×75 mm) | ~1 hr |
