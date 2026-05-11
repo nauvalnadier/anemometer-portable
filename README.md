@@ -78,7 +78,7 @@ The instrument was calibrated against a Davis AWS standard anemometer, achieving
 | Wind vane blade | 102 × 75 mm |
 | Wind vane arm | L = 150 mm |
 | Magnet holder | D = 5 mm |
-| Estimated total print time | ~12 hours |
+| Estimated total print time | ~30 hours |
 
 ---
 
