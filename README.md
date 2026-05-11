@@ -1,6 +1,6 @@
 # Anemometer Portable
 
-A portable cup anemometer built with an Optocoupler sensor for wind speed measurement and HMC5883L magnetometer for wind direction, controlled by an Arduino UNO R3 microcontroller with automatic MicroSD data logging.
+A portable anemometer built with an Optocoupler sensor for wind speed measurement and HMC5883L magnetometer for wind direction, controlled by an Arduino UNO R3 microcontroller with automatic MicroSD data logging.
 
 > Undergraduate thesis project — Atmospheric and Planetary Science, ITERA 2026
 
@@ -150,19 +150,30 @@ Recommended print settings:
 
 ### Mechanical
 
-1. Install bearing 608zz into the cup axis mount on `housing_2.stl`
-2. Insert the support pipe through the bearing
-3. Attach the 16-slot disk encoder to the lower shaft of the cup anemometer
-4. Mount 3 hemisphere cups onto the cup anemometer arms
-5. Install the second bearing 608zz into the wind vane axis
-6. Attach the neodymium magnet to `magnet_holder.stl` and fix it to the wind vane wall
-7. Place the HMC5883L sensor statically inside the wind vane housing — the sensor must not rotate with the vane
+1. Install both bearing 608zz — one into the cup anemometer dock 
+   and one into the magnet holder
+2. Before attaching the support pipe, connect the disk encoder 
+   to the bottom of the cup anemometer
+3. Install the neodymium magnet into the inner wall of the 
+   magnet holder
+4. Insert the support pipe through the cup anemometer bearing, 
+   the magnet holder bearing, and dock it into housing 2
+5. Assemble the remaining parts following the 3D design — 
+   the final result should match the device photo in `docs/images/`
 
 ### Electronics
 
-1. Connect all components according to the wiring diagram above
-2. Place the assembled electronics inside `housing_1.stl`
-3. Ensure cables do not obstruct the disk encoder or Optocoupler gap
+1. Place the Optocoupler sensor inside housing 2, positioned 
+   directly at the disk encoder rotation path
+2. Route the HMC5883L cable through the support pipe before 
+   final assembly — the sensor sits statically at the center 
+   of the magnet holder while the magnet holder itself rotates 
+   with the wind vane above it
+3. Connect all remaining components according to the wiring 
+   diagram
+4. Place the assembled electronics inside housing 1
+5. Ensure cables do not obstruct the disk encoder or the 
+   Optocoupler gap
 
 ### Firmware Upload
 
