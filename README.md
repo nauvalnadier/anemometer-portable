@@ -78,7 +78,7 @@ The instrument was calibrated against a Davis AWS standard anemometer, achieving
 | Wind vane blade | 102 × 75 mm |
 | Wind vane arm | L = 150 mm |
 | Magnet holder | D = 5 mm |
-| Estimated total print time | ~30 hours |
+| Estimated total print time | ~12–30 hours (depends on printer settings) |
 
 ---
 
@@ -121,6 +121,10 @@ See full wiring diagram in [`hardware/schematic/`](hardware/schematic/)
 ## 3D Printing
 
 STL files are available in [`hardware/stl/`](hardware/stl/)
+
+> **Note:** Print time estimates below are approximate and may vary
+> significantly depending on printer model, speed settings, and slicer
+> configuration. Total estimated time ranges from 12–30 hours.
 
 | File | Part | Est. Print Time |
 |---|---|---|
